@@ -1,0 +1,4 @@
+SELECT T1.name
+FROM table1 T1
+LEFT JOIN T2 T2 ON T2.name = t1.name
+WHERE T2.name IS NULL
