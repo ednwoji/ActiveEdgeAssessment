@@ -12,4 +12,6 @@ public interface StockService {
     List<StockModel> findAll();
 
     Optional<StockModel> fetchStockById(Long id);
+
+    StockModel updateStock(Long id, StockModel stockModel);
 }
